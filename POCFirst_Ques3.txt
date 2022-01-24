@@ -1,0 +1,35 @@
+							Name: Vijeta S. Karad
+							Batch_No: 6523.
+							Entrollment_No: EBEON1221522057.
+--------------------------------------------------------------------------------------------
+Q.3] Initialize On Object Creation
+i. Create a class Car which contains wheels and model as Instance variables.
+ii. Initialize the number of wheels of the car at the time of creating the Object of the car and assign the model of the car to the model variable and print the model after creating the object of the car class(not at the time of creating the object).
+--------------------------------------------------------------------------------------------
+--->
+
+class Car 
+{
+	int wheels;
+	String model;
+
+	Car(int wheels, String model)
+	{
+		this.wheels = wheels;
+		this.model = model;
+		System.out.println("Wheels of the Car is :\t" +wheels);
+	}
+
+	public static void main(String[] args) 
+	{
+		Car obj = new Car(4,"Rapid Scoda");
+	 	System.out.println("Model of the Car is :\t"+obj.model);
+	}
+}
+--------------------------------------------------------------------------------------------
+Output -
+Wheels of the Car is :  4
+Model of the Car is :   Rapid Skoda
+--------------------------------------------------------------------------------------------
+
+		

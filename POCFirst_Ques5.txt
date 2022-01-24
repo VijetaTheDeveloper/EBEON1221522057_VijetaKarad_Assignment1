@@ -1,0 +1,33 @@
+							Name: Vijeta S. Karad
+							Batch_No: 6523.
+							Entrollment_No: EBEON1221522057.
+--------------------------------------------------------------------------------------------
+Q.5] Find the output and write explanation?
+class Main {
+public static void main(String[] args) {
+int t;
+System.out.println("Value of variable t : "+t);
+}
+}
+--------------------------------------------------------------------------------------------
+--->
+class Main 
+{
+	public static void main(String[] args) 
+	{
+		int t;
+		System.out.println("Value of variable t : "+t);
+	}
+}
+--------------------------------------------------------------------------------------------
+Compilation Error -
+Main.java:6: error: variable t might not have been initialized
+                System.out.println("Value of variable t : "+t);
+									   ^
+Error 1
+Explanation -
+		In Java if a Variable Declared in main method without Initialization and print it then, it will give Compilation Error because, In java Globally initialized variable then it will run.
+--------------------------------------------------------------------------------------------
+
+
+
